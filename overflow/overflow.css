@@ -1,0 +1,41 @@
+.container-all {
+  display: flex;
+}
+
+.container-hidden {
+  background-color: bisque;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  padding: 15px;
+  margin: 10px;
+
+}
+
+.container-scroll {
+  background-color: bisque;
+  width: 300px;
+  height: 200px;
+  padding: 15px;
+  margin: 10px;
+  overflow: scroll;
+}
+
+.container-visible {
+  background-color: bisque;
+  width: 300px;
+  height: 200px;
+  padding: 15px;
+  margin: 10px;
+  overflow: visible;
+}
+
+.container-auto {
+  background-color: bisque;
+  width: 300px;
+  height: 200px;
+  padding: 15px;
+  margin: 10px;
+  overflow: auto;
+}
+

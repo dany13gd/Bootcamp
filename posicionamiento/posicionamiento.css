@@ -1,0 +1,34 @@
+div {
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Se posiciona en relacion al poscionamiento original */
+.relative {
+  position: relative;
+  left: 80px;
+  margin-left: 10px;
+}
+
+/* Se posiciona en realcion a la pantalla */
+.fixed {
+  position: fixed;
+  background-color: aqua;
+  bottom: 0px;
+  left: 0px;
+}
+
+/* se posiciona en funcion de su padre */
+.absolute {
+  position: absolute;
+  top: 111px;
+}
+
+/* posicion pegajosa funciona para los nav que siempre queremos se posicionen arriba aunque hagamos scroll */
+.sticky {
+  color: aliceblue;
+  position: sticky;
+  background-color: brown;
+  top: 0px;
+}

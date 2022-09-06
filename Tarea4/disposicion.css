@@ -1,0 +1,7 @@
+.img-galeria {
+  width: 300px;
+  flex-wrap: wrap;
+  /* display: flex; */
+  gap: 10px;
+  
+}

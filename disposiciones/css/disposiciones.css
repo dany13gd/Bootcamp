@@ -1,0 +1,24 @@
+.div-1, .div-2 {
+    color: aqua;
+    /* display: block; POR DEFECTO*/
+
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+}
+
+.span-1 {
+  background-color: aquamarine;
+    /* display: inline; POR DEFECTO*/
+  float: left;
+
+}
+
+.span-2 {
+  background-color: aquamarine;
+    /* display: inline; POR DEFECTO*/
+  float: right;
+}
+
