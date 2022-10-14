@@ -21,16 +21,11 @@ span.frase::after {
 .libro {
   background-color: bisque;
   padding: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-
+  font-family: Arial;
 }
 
 .libro p::first-letter {
   font-size: xx-large;
-}
-
-.frase::first-line {
-  background-color: aliceblue;
 }
 
 .libro p::first-line {
@@ -47,10 +42,10 @@ span.frase::after {
 }
 
 .listado li::marker {
-  color: olive;
+  color: rgb(0, 255, 170);
 }
 
-p::first-letter {
+/* p::first-letter {
   color: #ff0000;
   font-size: xx-large;
-}
+}  */

@@ -4,6 +4,16 @@
 
 .container #button-contenedor {
   background-color: yellow;
+ 
+}
+
+.container #button-contenedor::after {
+  content: 'button';
+}
+.container #button-contenedor:hover::after {
+ color: white;
+ background-color: green;
+ content: 'Hecho';
 }
 
 /* section.main p {
